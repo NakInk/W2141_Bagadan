@@ -39,8 +39,9 @@ public class FormaTest extends Basic {
         form.setMobileElement(Basic.Mobile);
         Thread.sleep(1000);
         form.setDateCalendarElement(Basic.DATE_OF_BIRTH);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setTextAreaElement(Basic.TEXTAREA);
+        Thread.sleep(3000);
 
     }
 
