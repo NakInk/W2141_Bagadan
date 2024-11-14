@@ -33,7 +33,6 @@ public class FormaTest extends Basic {
         form.setGenderElement();
         form.setMobileElement(Basic.Mobile);
         form.setDateCalendarElement(Basic.DATE_OF_BIRTH);
-        form.setSubjectElement(Basic.SUBJECTS);
         form.setTextAreaElement(Basic.TEXTAREA);
 
     }
