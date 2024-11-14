@@ -27,19 +27,19 @@ public class FormaTest extends Basic {
         driver.get("https://demoqa.com/automation-practice-form");
         FormaPage form = new FormaPage(driver);
         logger.info("Set User: Name - " + FIRST_NAME);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setFirstNameElement(Basic.FIRST_NAME);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setLastNameElement(Basic.LAST_NAME);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setEmailElement(Basic.EMAIL);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setGenderElement();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setMobileElement(Basic.Mobile);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setDateCalendarElement(Basic.DATE_OF_BIRTH);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         form.setTextAreaElement(Basic.TEXTAREA);
 
     }
